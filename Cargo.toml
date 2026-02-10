@@ -5,5 +5,5 @@ edition = "2021"
 description = "Test app for robius-camera with Makepad"
 
 [dependencies]
-makepad-widgets = { path = "../makepad/widgets" }
-robius-camera = { path = "../robius/crates/camera" }
+makepad-widgets = { git = "https://github.com/joulei/makepad", branch = "activity-callback-registry" }
+robius-camera = { git = "https://github.com/project-robius/robius", branch = "camera" }
