@@ -1,0 +1,9 @@
+[package]
+name = "makepad-robius-camera"
+version = "0.1.0"
+edition = "2021"
+description = "Test app for robius-camera with Makepad"
+
+[dependencies]
+makepad-widgets = { path = "../makepad/widgets" }
+robius-camera = { path = "../robius/crates/camera" }
